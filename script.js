@@ -6,10 +6,10 @@ window.onload = function () {
   var startButton = document.getElementById("start");
   var stopButton = document.getElementById("stop");
   var restartButton = document.getElementById("restart");
-  var interval;
+  var Interval;
 
   startButton.onclick = function () {
-    clearInterval(interval);
+    clearInterval(Interval);
     Interval = setInterval(startTimer, 10);
   };
   stopButton.onclick = function () {
